@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+tensorflow>=2.11,<2.17
