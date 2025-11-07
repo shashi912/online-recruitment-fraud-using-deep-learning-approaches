@@ -1,0 +1,12 @@
+# 1) create env
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# 2) install deps
+pip install -U pip
+pip install pandas numpy scikit-learn matplotlib seaborn joblib
+# Optional deep model
+pip install "tensorflow>=2.11,<2.17"
+
+# 3) run
+python src/train.py
